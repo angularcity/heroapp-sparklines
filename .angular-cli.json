@@ -20,7 +20,7 @@
       "prefix": "app",
       "styles": [
         "../node_modules/ion-rangeslider/css/ion.rangeSlider.css",
-        "../node_modules/ion-rangeslider/css/ion.rangeSlider.skinModern.css",
+        "../node_modules/ion-rangeslider/css/ion.rangeSlider.skinHTML5.css",
         "styles.css"
       ],
       "scripts": [

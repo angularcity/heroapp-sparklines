@@ -19,7 +19,7 @@ export class SliderComponent implements OnInit {
 
   ngOnInit() {
     this.courses = this.sliderService.getCourses();
-      this.sparklines = sparkly([0, 50, 75, 75, 75, 75,75, 100, 120, 155, 20, 120, 150, 200, 250, 200, 150, 300, 100 , 50, 75, 50, 100,  75, 75, 75, 100, 100, 100 , 150, 199, 250, 300, 50, 75, 100, 250, 300, 250, 100, 100, 150, 200 ]);
+    this.sparklines = sparkly([0, 50, 75, 75, 75, 75,75, 100, 120, 155, 20, 120, 150, 200, 250, 200, 150, 300, 100 , 50, 75, 50, 100,  75, 75, 75, 100, 100, 100 , 150, 199, 250, 300, 50, 75, 100, 250, 300, 250, 100, 100, 150, 200 ]);
   }
   myOnFinish(val) {
     this.minVal = val.from;
