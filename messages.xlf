@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="navOpt1" datatype="html">
+        <source>Dashboard <x id="START_TAG_SPAN" ctype="x-span"/>(current)<x id="CLOSE_TAG_SPAN" ctype="x-span"/></source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/common/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">link text for navbar option 1 </note>
+      </trans-unit>
+      <trans-unit id="navOpt2" datatype="html">
+        <source>Heroes</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/common/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <note priority="1" from="description">link text for navbar option 2 </note>
+      </trans-unit>
+      <trans-unit id="navOpt3" datatype="html">
+        <source>Courses</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/common/navbar/navbar.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description">link text for navbar option 3 </note>
+      </trans-unit>
+      <trans-unit id="dshHeader" datatype="html">
+        <source>Dashboard for heroes</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">header for dashboard</note>
+      </trans-unit>
+      <trans-unit id="dshSubHeader" datatype="html">
+        <source> Featuring the top 4 heroes </source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">subheader for dashboard</note>
+      </trans-unit>
+      <trans-unit id="dshBtnText" datatype="html">
+        <source>Learn more</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">F:/word-docs-study-2/eduonix-angular/heroapp/src/app/dashboard/dashboard.component.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">btn text for dashboard</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

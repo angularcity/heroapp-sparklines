@@ -1,0 +1,6 @@
+li.active{
+  background-color: #000;
+  color: #fff;
+}
+li { display:block; clear: both; margin:15px auto;  min-height:25px; cursor: pointer}
+button { float:right ; background-color: black; color: #fff; border-radius: 50px; border-color:#000; }

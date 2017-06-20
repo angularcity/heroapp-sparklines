@@ -1,0 +1,38 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h3 class="panel-title">Search courses based on price. </h3>
+      </div>
+      <div class="panel-body">
+       <span id="sparklines" style="width: 100%; display: block"> {{ sparklines }} </span>
+        <ion-range-slider #sliderElement
+                          type="double"
+                          min="0"
+                          max="300"
+                          from="40"
+                          to="280"
+                          prefix="$ "
+                          (onFinish)="myOnFinish($event)"></ion-range-slider>
+
+
+
+      </div>
+    </div>
+    <hr>
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Courses we have </h3>
+      </div>
+      <div class="panel-body">
+        <div class="list-group">
+          <a  class="list-group-item" *ngFor="let course of courses | courseFil : minVal : maxVal">
+            <h4  class="list-group-item-heading"> {{ course.name }}</h4>
+            <p class="list-group-item-text"> <strong> Duration: </strong> {{ course.duration }}</p>
+            <p class="list-group-item-text"> <strong> Level: </strong> {{ course.level }} / <strong> Cost: $</strong> {{ course.cost }}</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

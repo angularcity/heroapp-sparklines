@@ -1,0 +1,7 @@
+.list-group-item h4{
+  margin-bottom: 20px;
+}
+.panel-body{
+  position: relative;
+}
+#sparklines { position: absolute; top:23px;}

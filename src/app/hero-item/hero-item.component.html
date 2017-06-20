@@ -1,0 +1,4 @@
+<li [class.active]="hero === currentlySelected" (click)="onSelect()">
+  <span class="badge">{{hero.id}}</span> {{hero.name}}
+  <button (click)="delete()">x</button>
+</li>

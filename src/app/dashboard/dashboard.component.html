@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1 i18n="header for dashboard@@dshHeader">Dashboard for heroes</h1>
+  <p i18n="subheader for dashboard@@dshSubHeader"> Featuring the top 4 heroes </p>
+  <p><a class="btn btn-primary btn-lg" i18n="btn text for dashboard@@dshBtnText" >Learn more</a></p>
+  <div class="row">
+    <div class="col-md-3" *ngFor="let hero of heroes">
+      <a [routerLink]="['/heroes', hero.id]"  class="btn btn-default btn-lg btn-block"> {{ hero.name }}</a>
+      </div>
+    </div>
+
+  <app-hero-search></app-hero-search>
+
+</div>
+
+
+
+

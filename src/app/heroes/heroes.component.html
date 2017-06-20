@@ -1,0 +1,40 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Select a hero to view his details</div>
+  <div class="panel-body">
+    <div class="row">
+
+      <div class="col-md-6">
+        <h2>My Heroes</h2>
+        <ul class="heroes">
+          <app-hero-item [hero]="hero"
+                         [currentlySelected]="selectedHero"
+                         (heroSelect)="onHeroSelect($event)"
+                         (heroDel)="onHeroDelete($event)"
+                         *ngFor="let hero of heroes"></app-hero-item>
+        </ul>
+        <hr>
+        <div class="form-group">
+          <label class="control-label"><strong>Add new Hero</strong></label>
+          <div class="input-group">
+            <input type="text" #newHero class="form-control">
+            <span class="input-group-btn">
+            <button class="btn btn-default"
+                    (click)="addHero(newHero.value)">Add</button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div *ngIf="selectedHero">
+          <h2>{{selectedHero.name}} details!</h2>
+          <div><label>id: </label>{{selectedHero.id}}</div>
+          <div>
+            <label>name: </label>
+            <input [(ngModel)]="selectedHero.name" placeholder="name"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
